@@ -3,7 +3,7 @@ This is a simple dice game played in the terminal for my Java class.
 
 ## Rules
 * The game is played between the player and the computer.
-* The player's score and the computer's score each begin at -.
+* The player's score and the computer's score each begin at 0.
 * The object of the game is to be the first to reach 121 points.
 * The player and the computer take turns. One each turn:
     1) The player / computer chooses a number between 2 and 6
