@@ -112,8 +112,6 @@ public class Matador {
         // if your chosen number is on both die you automatically win the game
         if (computerRoll1 == computerChoice && computerRoll2 == computerChoice) {
           System.out.println("The computer rolled its choice on both die. The computer won the game!");
-          playerTurn = false;
-          computerTurn = false;
           break;
         } else {
           computerTurn = false;
