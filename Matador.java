@@ -29,11 +29,11 @@ public class Matador {
       // while the player makes their choices
       while (playerTurn) {
         // if the player chooses a number that isn't in between 2 and 6 it will ask them
+        // to give a new number
         System.out.print("Pick a number between 2 and 6: ");
         playerChoice = scanner.nextInt();
         computerChoice = 2 + randGen.nextInt(5);
         System.out.println("The computer chose " + computerChoice);
-        // to give a new number
         if (playerChoice < 2 || playerChoice > 6) {
           System.out.print("You must pick a number between 2 and 6: ");
           playerChoice = scanner.nextInt();
